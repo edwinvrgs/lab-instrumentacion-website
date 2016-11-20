@@ -1,0 +1,23 @@
+doctype 
+html(lang="es")
+  head
+  
+    title= head
+    meta(name="descripcion" content="#{description}")
+    
+    script(type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous")
+    
+    //Bootstrap (porsia)
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    script(type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+    
+    
+    link(rel="stylesheet" href="/css/main.css")
+    script(type="text/javascript" src="/js/index.js")
+    
+  body
+    header.navbar(role="banner")!= partial("_header")
+    
+    != yield
+    
+    footer!= partial("_footer")

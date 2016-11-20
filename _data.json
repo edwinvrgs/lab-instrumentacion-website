@@ -1,0 +1,20 @@
+{
+  "_header": {
+    "title": "UNET"
+  },
+  "_footer": {
+    "title": "Pie de pagina"
+  },
+  "index": {
+    "title": "Welcome to Harp.",
+    "description": "This is yours to own. Enjoy."
+  },
+  "about": {
+    "title": "Welcome to my about page",
+    "description": "Edwin Vargas. Engeneering Student"
+  },
+  "404": {
+    "title": "404",
+    "description": "Whoops. Looks like what you're looking for can't be found."
+  }
+}
