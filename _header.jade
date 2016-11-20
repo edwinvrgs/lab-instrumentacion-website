@@ -1,38 +1,26 @@
-header.navbar(role='banner')
-  .container
-    .navbar-header
-      .logo-md
-        a(href='/')
-          img(src='img/apple-touch-icon.png', alt='UNET Logo')
-      h1.navbar-brand.nav-color.red
-        a(href='/') LIB 
-          span.highlight UNET
-          span.navbar-brand-hyphen  - 
-          br
-          span.nav-description Laboratorio de Instrumentación Biológica
-      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-    nav.navbar-collapse(role='navigation')
-      ul.nav.navbar-nav.navbar-right
-        li.nav-color.orange
-          a(href='/') Inicio
-            span.nav-colon : 
-            br
-            span.nav-description Inicio...
-        li.nav-color.yellow
-          a(href='/') Quienes Somos
-            span.nav-colon : 
-            br
-            span.nav-description Quienes Somos...
-        li.nav-color.blue
-          a(href='/') Investigacion
-            span.nav-colon : 
-            br
-            span.nav-description Investigacion...       
-        li.nav-color.red
-          a(href='/') Acerca de
-            span.nav-colon : 
-            br
-            span.nav-description Acerca de...
+.container
+  .navbar-header
+    .logo-md
+      a(href='/')
+        img(src='img/logo.png', alt='UNET Logo')
+    a.navbar-brand.nav-color.red
+      a(href='/') LIB 
+        span.highlight UNET
+        span.navbar-brand-hyphen  - 
+        br
+        span.nav-description Laboratorio de Instrumentación Biológica
+    button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+      span.sr-only Toggle navigation
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+  nav.navbar-collapse.collapse(role='navigation')
+    ul.nav.navbar-nav.navbar-right
+      li.nav-color.orange
+        a(href='/') Inicio
+      li.nav-color.yellow
+        a(href='/') Quienes Somos
+      li.nav-color.blue
+        a(href='/') Investigacion       
+      li.nav-color.red
+        a(href='/') Acerca de
