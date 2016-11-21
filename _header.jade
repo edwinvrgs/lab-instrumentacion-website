@@ -1,26 +1,19 @@
-.container
+.container-fluid
   .navbar-header
-    .logo-md
-      a(href='/')
-        img(src='img/logo.png', alt='UNET Logo')
-    a.navbar-brand.nav-color.red
-      a(href='/') LIB 
-        span.highlight UNET
-        span.navbar-brand-hyphen  - 
-        br
-        span.nav-description Laboratorio de Instrumentación Biológica
+    a.navbar-brand(href="/") LIB UNET
+      img.pull-left.logo-md(src='img/logo.png', alt='UNET Logo')
     button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
       span.sr-only Toggle navigation
       span.icon-bar
       span.icon-bar
       span.icon-bar
   nav.navbar-collapse.collapse(role='navigation')
-    ul.nav.navbar-nav.navbar-right
-      li.nav-color.orange
+    ul.nav.navbar-nav
+      li
         a(href='/') Inicio
-      li.nav-color.yellow
+      li
         a(href='/') Quienes Somos
-      li.nav-color.blue
+      li
         a(href='/') Investigacion       
-      li.nav-color.red
+      li
         a(href='/') Acerca de
